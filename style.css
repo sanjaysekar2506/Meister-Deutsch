@@ -596,15 +596,7 @@ nav {
   background: linear-gradient(180deg, var(--bg-soft) 0%, #fff 100%);
   overflow: hidden;
   position: relative;
-  background-image:
-    linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.58) 0%,
-      rgba(0, 0, 0, 0.3) 45%,
-      rgba(0, 0, 0, 0.05) 100%
-    ),
-    url("images/german-hero.jpg");
-
+  background-image: url("./imgs/Brandenburg Gate Team Banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -828,12 +820,12 @@ nav {
     position: relative;
 
     min-height: auto;
-    padding: 45px 0 56.25vw;
+    padding: 45px 0 48px;
 
     /* SHOW THE ACTUAL IMAGE */
     background-image: url("./imgs/german.png");
-    background-size: 100% auto;
-    background-position: center bottom;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 
     background-color: #ffffff;
@@ -949,10 +941,10 @@ nav {
     min-height: auto;
 
     padding-top: 38px;
-    padding-bottom: 56.25vw;
+    padding-bottom: 48px;
 
-    background-size: 100% auto;
-    background-position: center bottom;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -982,8 +974,8 @@ nav {
   .hero {
     padding-top: 32px;
 
-    background-size: 100% auto;
-    background-position: center bottom;
+    background-size: cover;
+    background-position: center;
   }
 
   .hero .wrap {
